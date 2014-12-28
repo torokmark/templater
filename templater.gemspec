@@ -6,7 +6,8 @@ Gem::Specification.new do |s|
   s.description = "A simple text template replacer"
   s.authors     = ["Mark Torok"]
   s.email       = 'torok.marko@gmail.com'
-  s.files       = ["lib/templater.rb"]
+  s.files       = ["Gemfile", "Gemfile.lock", "README.md", "LICENSE", "Rakefile", "lib/templater.rb", "spec/templater_spec.rb"]
+  s.test_files  = ["spec/templater_spec.rb"]
   s.homepage    = 'http://rubygems.org/gems/templater'
   s.license     = 'MIT'
 
