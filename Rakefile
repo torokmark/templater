@@ -1,4 +1,3 @@
-require 'rake'
 begin
   require 'rspec/core/rake_task'
   
