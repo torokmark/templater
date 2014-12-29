@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.email       = 'torok.marko@gmail.com'
   s.files       = ['Gemfile', 'Gemfile.lock', 'README.md', 'LICENSE', 'Rakefile', 'lib/templater.rb', 'spec/templater_spec.rb']
   s.test_files  = ['spec/templater_spec.rb']
-  s.homepage    = 'http://rubygems.org/gems/templater'
+  s.homepage    = 'https://github.com/torokmark/templater'
   s.license     = 'MIT'
 
   s.add_development_dependency 'bundler', '~> 1.6' 

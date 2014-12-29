@@ -5,5 +5,6 @@ templater
 [![Code Climate](https://codeclimate.com/github/torokmark/templater/badges/gpa.svg)](https://codeclimate.com/github/torokmark/templater)
 [![Test Coverage](https://codeclimate.com/github/torokmark/templater/badges/coverage.svg)](https://codeclimate.com/github/torokmark/templater)
 [![Dependency Status](https://gemnasium.com/torokmark/templater.svg)](https://gemnasium.com/torokmark/templater)
+[![Gitter chat](https://badges.gitter.im/torokmark/templater.png)](https://gitter.im/torokmark/templater)
 
 My first ruby gem to use replacing text.
