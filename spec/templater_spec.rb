@@ -1,4 +1,4 @@
-require 'templater'
+require 'spec_helper'
 
 describe Templater do
   context "#replace" do
