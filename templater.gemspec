@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/torokmark/templater'
   s.license     = 'MIT'
 
-  s.add_development_dependency 'bundler', '~> 2.1' 
+  s.add_development_dependency 'bundler', '~> 2.1', '>= 2.1.4'
   s.add_development_dependency 'rake', '~> 13.0'
   s.add_development_dependency 'pry', ['0.10.1']
   s.add_development_dependency 'rspec', '~> 3.0'
