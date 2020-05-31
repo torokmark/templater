@@ -1,9 +1,17 @@
-begin
-  require 'rspec/core/rake_task'
-  
-  RSpec::Core::RakeTask.new(:spec)
-  
-  task default: :spec
-rescue LoadError
-  # no rspec available
+$LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
+
+task :default => :spec
+
+task :build do
+  system "gem build templater.gemspec"
 end
+
+task :install do
+  system "gem install templater-1.0.0.gem"
+end
+
+task :push do
+  system "gem push templater-1.0.0.gem"
+end
+
+task :full => [:build, :install, :spec]
